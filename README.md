@@ -6,7 +6,8 @@
 
 By feeding the function a time based array we are able to compare values with the current time and determine if our store is open.
 
-Example array: 
+Example array:
+```
 $storeSchedule = [
     'Sun' => ['12:00 AM' => '01:00 AM'],
     'Mon' => ['09:00 AM' => '12:00 AM'],
@@ -16,5 +17,6 @@ $storeSchedule = [
     'Fri' => ['09:00 AM' => '12:00 AM'],
     'Sat' => ['12:00 AM' => '01:00 AM']
 ];
+```
 
 ** Based on code found here: http://stackoverflow.com/questions/14904864/determine-if-business-is-open-closed-based-on-business-hours **
